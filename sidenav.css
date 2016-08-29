@@ -1,0 +1,113 @@
+
+
+
+/******************************************
+     S I D E    N A V I G A T I O N
+******************************************/
+
+#side-nav {
+  color: navy;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#side-nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+#side-nav li {
+  margin: 8px
+}
+
+#side-nav ul:first-child {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#side-nav ul:last-child li {
+  padding: 2.5px 0;
+}
+
+#side-nav i {
+  font-size: 1.3em;
+  padding: 5px;
+}
+
+#side-nav ul:first-child li:nth-child(1) i {
+  color: #4b04f9;
+}
+
+#side-nav ul:first-child li:nth-child(2) i {
+  color: #590be8;
+}
+
+#side-nav ul:first-child li:nth-child(3) i {
+  color: #6812d7;
+}
+
+#side-nav ul:first-child li:nth-child(4) i {
+  color: #7619c5;
+}
+
+#side-nav ul:first-child li:nth-child(5) i {
+  color: #8420b4;
+}
+
+#side-nav ul:first-child li:nth-child(6) i {
+  color: #9327a3;
+}
+
+#side-nav ul:first-child li:nth-child(7) i {
+  color: #a12e91;
+}
+
+#side-nav ul:first-child li:nth-child(8) i {
+  color: #af3580;
+}
+
+#side-nav ul:first-child li:nth-child(9) i {
+  color: #be3c6f;
+}
+
+#side-nav ul:first-child li:nth-child(10) i {
+  color: #da4a4d;
+}
+
+#side-nav ul:first-child li:nth-child(11) i {
+  color: #e9513b;
+}
+
+#side-nav ul:first-child li:nth-child(12) i {
+  color: #f7582a;
+}
+
+#side-nav ul:last-child li:hover {
+  color: #188fff;
+}
+
+#side-nav li:hover {
+  cursor: pointer;
+}
+

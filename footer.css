@@ -1,0 +1,111 @@
+
+/****************************
+        F O O T E R
+****************************/
+
+.gradient {
+  height: 600px;
+  width: 150px;
+  background: -webkit-linear-gradient(rgb(75, 4, 249), rgb(247, 88, 42));
+  background: linear-gradient(rgb(75, 4, 249), rgb(247, 88, 42));
+}
+
+.gradient,
+.white-block {
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.white-block {
+  background: white;
+  height: 580px;
+  width: 130px;
+  font-size: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.white-block:hover {
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.bar {
+  border: solid 2px darkorange;
+  width: 150px;
+  margin: 50px 0;
+}
+
+.credits {
+  color: #c6c6cd;
+  width: 150px;
+}
+
+.credits li:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.credits li {
+  padding: 3px 7px;
+  font-size:.8em;
+}
+
+.credits ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+@media (max-width: 800px) {
+#footer{display:none;}
+
+}
