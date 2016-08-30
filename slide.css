@@ -241,7 +241,7 @@ width:800px;
 
 @media (max-width:600px) {
   #slide{display:none;}
-  .secondarycontent{flex-flow:row wrap; width:100%;}
+  .secondarycontent{flex-flow:column wrap; width:100%;}
   .horizontal{width:220px; flex-direction:column; margin: 0 5px 15px 5px; font-size:.7em;}
   .horizontal img{width:220px;}
 }
