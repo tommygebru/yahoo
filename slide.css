@@ -1,133 +1,132 @@
-
 /****************************
        S L I D E
 ****************************/
 
 #slide {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-width:800px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 800px;
 }
 
 #slide .image {
-  border: solid 1px grey;
-  height: 400px;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url("https://source.unsplash.com/random") center no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url("https://source.unsplash.com/random") center no-repeat;
+    border: solid 1px grey;
+    height: 400px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url("https://source.unsplash.com/random") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url("https://source.unsplash.com/random") center no-repeat;
 }
 
 #slide h1,
 #slide p {
-  color: white;
-  letter-spacing: 1px;
+    color: white;
+    letter-spacing: 1px;
 }
 
 #slide p {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 #slide h1 {
-  font-weight: 700;
-  font-size: 1.3em;
+    font-weight: 700;
+    font-size: 1.3em;
 }
 
 #slide .image {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
 }
 
 #slide .image {
-  max-width: 1000px;
+    max-width: 1000px;
 }
 
 #slide .ionicons {
-  color: white;
-  margin: 10px;
-  font-size: 2.2em;
+    color: white;
+    margin: 10px;
+    font-size: 2.2em;
 }
 
 #slide .side-action {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 #slide .side-action {
-  -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
 }
 
 #slide .image:hover {
-  padding: 0 13px;
-  -webkit-transition: .7s;
-  transition: .7s;
+    padding: 0 13px;
+    -webkit-transition: .7s;
+    transition: .7s;
 }
 
 #slide .image {
-  padding: 10px;
-  -webkit-transition: .7s;
-  transition: .7s;
+    padding: 10px;
+    -webkit-transition: .7s;
+    transition: .7s;
 }
 
 #slide .ionicons:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 
 /*#slide .button i{padding:30px; color:#cfcfcf;}*/
 
 #slide .image .ionicons:hover:nth-child(1) {
-  color: #caccce;
+    color: #caccce;
 }
 
 #slide .image .ionicons:hover:nth-child(2) {
-  color: #ff4500;
+    color: #ff4500;
 }
 
 #slide .image .ionicons:hover:nth-child(3) {
-  color: #3b5998;
+    color: #3b5998;
 }
 
 #slide .image .ionicons:hover:nth-child(4) {
-  color: #55acee;
+    color: #55acee;
 }
 
 #slide .image .ionicons:hover:nth-child(5) {
-  color: #0077b5;
+    color: #0077b5;
 }
 
 #slide h1 span,
 #slide p span {
-  display: none;
+    display: none;
 }
 
 
@@ -144,32 +143,37 @@ width:800px;
 *******************************/
 
 #newstory {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
 .smallstory {
-  height: 160px;
-  width: 195px;
-  margin: 7px 3px;
+    height: 160px;
+    width: 195px;
+    margin: 7px 3px;
 }
 
 .smallstory img,
 .horizontal img {
-  height: 120px;
-  width: 195px;
-  background: url("https://source.unsplash.com/random") center no-repeat;
+    height: 120px;
+    width: 195px;
+    background: url("https://source.unsplash.com/random") center no-repeat;
+}
+
+.horizontal{
+    min-width:200px;
 }
 
 .primarycontent,
 .secondarycontent {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -208,37 +212,82 @@ width:800px;
   align-items: flex-start;
   max-width: 800px;
   margin: 10px auto;
+=======
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.horizontal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 10px auto;
+>>>>>>> gh-pages
 }
 
 .horizontal span {
-  padding: 5px;
-  color: #555;
+    padding: 5px;
+    color: #555;
 }
 
 .horizontal h1,
 .smallstory {
-  color: navy;
-  font-weight: 700;
+    color: navy;
+    font-weight: 700;
 }
 
 .horizontal h1 {
-  font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 @media (max-width: 1100px) {
-  #newstory{display:none;
-  }
-#slide{width:90%;
+    #newstory {
+        display: none;
+    }
+    #slide {
+        width: 90%;
+    }
+    #side-nav ul:last-child {
+        display: none;
+    }
+    .secondarycontent {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
-#side-nav ul:last-child {
-  display: none;
-}
-.secondarycontent{
-  width:90%; margin:0 auto;}
-}
-
 
 @media (max-width:600px) {
+<<<<<<< HEAD
   #slide{display:none;}
   .secondarycontent{flex-direction:row; flex-wrap:wrap; width:100%;}
   .horizontal{ width:220px; flex-direction:column; align-items: center; margin: 0 5px 15px 5px; font-size:.7em;}
@@ -246,3 +295,22 @@ width:800px;
 
 
 }
+=======
+    #slide {
+        display: none;
+    }
+    .secondarycontent {
+        flex-flow: row wrap;
+        width: 100%;
+    }
+    .horizontal {
+        width: 220px;
+        flex-direction: column;
+        margin: 0 5px 15px 5px;
+        font-size: .7em;
+    }
+    .horizontal img {
+        width: 220px;
+    }
+}
+>>>>>>> gh-pages
