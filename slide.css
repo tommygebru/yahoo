@@ -167,53 +167,13 @@
     background: url("https://source.unsplash.com/random") center no-repeat;
 }
 
-.horizontal{
-    min-width:200px;
+.horizontal img {
+    min-width: 200px;
 }
 
 .primarycontent,
 .secondarycontent {
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-.horizontal {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  max-width: 800px;
-  margin: 10px auto;
-=======
-    display: -webkit-box;
+    <<<<<<< HEAD display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -252,7 +212,46 @@
     align-items: flex-start;
     max-width: 800px;
     margin: 10px auto;
->>>>>>> gh-pages
+    =======display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.horizontal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 10px auto;
+    >>>>>>> gh-pages
 }
 
 .horizontal span {
@@ -287,30 +286,46 @@
 }
 
 @media (max-width:600px) {
-<<<<<<< HEAD
-  #slide{display:none;}
-  .secondarycontent{flex-direction:row; flex-wrap:wrap; width:100%;}
-  .horizontal{ width:220px; flex-direction:column; align-items: center; margin: 0 5px 15px 5px; font-size:.7em;}
-  .horizontal img{width:220px;}
-
-
-}
-=======
-    #slide {
+    <<<<<<< HEAD #slide {
         display: none;
     }
     .secondarycontent {
-        flex-flow: row wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: 100%;
     }
     .horizontal {
         width: 220px;
         flex-direction: column;
+        align-items: center;
         margin: 0 5px 15px 5px;
         font-size: .7em;
     }
     .horizontal img {
         width: 220px;
     }
+}
+
+=======#slide {
+    display: none;
+}
+
+.secondarycontent {
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.horizontal {
+    width: 220px;
+    flex-direction: column;
+    margin: 0 5px 15px 5px;
+    font-size: .7em;
+}
+
+.horizontal img {
+    width: 220px;
+}
+
+
 }
 >>>>>>> gh-pages
