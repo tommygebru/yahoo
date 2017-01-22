@@ -173,6 +173,12 @@ input:focus {
     box-shadow: none;
 }
 
+#slide .image,
+.horizontal img,
+.smallstory img {
+    border-radius: 5px;
+}
+
 
 /**************************************
     m a x - w i d t h :   6 0 0  p x
