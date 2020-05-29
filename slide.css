@@ -17,8 +17,8 @@
 #slide .image {
     border: solid 1px grey;
     height: 400px;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url("https://source.unsplash.com/random") center no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url("https://source.unsplash.com/random") center no-repeat;
+    /*background: -webkit-linear-gradient(rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url("https://source.unsplash.com/random") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url("https://source.unsplash.com/random") center no-repeat;*/
 }
 
 #slide h1,
@@ -86,7 +86,7 @@
 }
 
 #slide .image:hover {
-    padding: 0 13px;
+    padding: 5px;
     -webkit-transition: .7s;
     transition: .7s;
 }
@@ -105,7 +105,7 @@
 /*#slide .button i{padding:30px; color:#cfcfcf;}*/
 
 #slide .image .ionicons:hover:nth-child(1) {
-    color: #caccce;
+    color: black;
 }
 
 #slide .image .ionicons:hover:nth-child(2) {
@@ -129,6 +129,9 @@
     display: none;
 }
 
+#slide .image div:nth-child(2){
+  margin: 0 0 20px 0;
+}
 
 /*@media screen and (min-width: 1000px){
  #slide h1 span, #slide p span{display:inline;}
