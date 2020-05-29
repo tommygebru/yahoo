@@ -33,7 +33,8 @@ button {
     flex-direction: column;
 }
 
-
+.image, .smallstory, .horizontal {cursor: pointer;}
+.main-wrap img{border: solid 1px #e3e3e3;}
 /******************************************
             T Y P O G R A P H Y
 ******************************************/
@@ -87,6 +88,7 @@ button {
     width: 80%;
 }
 
+
 @media screen and (max-width: 1000px) {
     .search-bar {
         justify-content: space-around;
@@ -100,9 +102,6 @@ button {
 
 .search-bar input {
     color: #0179ff;
-}
-
-.search-bar input {
     border: solid 1px #0179ff;
 }
 
@@ -144,6 +143,8 @@ button {
 
 .search-bar input {
     width: 400px;
+    text-indent: 10px;
+    letter-spacing: 1px;
 }
 
 .search-bar button {
