@@ -8,7 +8,7 @@ $(document).ready(function() {
   	P U L L   D E F A U L T   Q U E R Y
   	******************************************/
   	function getNews() {
-  		fetch("https://newsapi.org/v2/everything?q=tesla&language=en&apiKey=628ca4460ecf460faaa076684f9f59d7").then(response => {
+  		fetch("https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=tesla&language=en&apiKey=628ca4460ecf460faaa076684f9f59d7").then(response => {
   			if (response.ok) {
   				return response.json();
   			} else {
@@ -25,7 +25,7 @@ $(document).ready(function() {
     		$("#newstory .smallstory").remove();
     		$("#slide .image").remove();
     		let inputText = $("input.bdr").val();
-    		fetch("https://newsapi.org/v2/everything?q=" + inputText + "&language=en" + "&apiKey=" + apiKey).then(response => {
+    		fetch("https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=" + inputText + "&language=en" + "&apiKey=" + apiKey).then(response => {
     			if (response.ok) {
     				return response.json();
     			} else {
