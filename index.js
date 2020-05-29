@@ -74,3 +74,9 @@ function displaySearchResults(responseJson) {
           </div></a>`);
 	} //loop
 }
+/******************************************
+D I S P L A Y   E R R O R S
+******************************************/
+function displaySearchError(error) {
+	console.log(error.message);
+}
