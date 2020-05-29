@@ -179,8 +179,8 @@ input:focus {
 .smallstory img {
     border-radius: 5px;
 }
-
-
+.secondarycontent aside{margin-top: 30px; color: #bfc9df; font-size: .6em; font-weight: 100;}
+.secondarycontent aside i {color:navy; font-size:1.5em; margin: 5px;}
 /**************************************
     m a x - w i d t h :   6 0 0  p x
 **************************************/
