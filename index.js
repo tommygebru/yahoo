@@ -73,7 +73,7 @@ function displaySearchResults(responseJson) {
               </div>
           </div></a>`);
 	} //loop
-	$(".secondarycontent").append(`<aside><a href="https://newsapi.org/" target=_blank""><i class="ionicons ion-ios-cloud-download-outline"></i> Powered by the NewsAPI</a></aside>`);
+	$(".secondarycontent").append(`<aside><a href="https://newsapi.org/" target="_blank"><i class="ionicons ion-ios-cloud-download-outline"></i> Powered by the NewsAPI</a></aside>`);
 }
 /******************************************
 D I S P L A Y   E R R O R S
